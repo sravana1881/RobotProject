@@ -25,7 +25,7 @@ public class Robot {
     }
     //Display Info
     public void displayInfo(){
-      System.out.println( name + "'s color is "+ color +" weight is " + weight + "lb.");
+      System.out.println( name + "'s color is "+ color +"  and weight is " + weight + "lb.");
     }
     public static void main(String[] args) {
         Robot myRobot = new Robot();  // Create a new Robot object
